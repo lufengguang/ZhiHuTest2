@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/test_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+           />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel_bg_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66C6C6C6"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="152dp"
+            android:layout_marginRight="48dp">
+            <ImageView
+                android:id="@+id/save_iv"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/abc_btn_switch_to_on_mtrl_00012"
+                android:padding="8dp"
+                android:src="@drawable/ic_save_btn" />
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/save_iv"
+                android:background="@drawable/abc_popup_background_mtrl_mult"
+                android:text="草稿"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/help_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="112dp"
+            android:layout_marginRight="48dp">
+
+            <ImageView
+                android:id="@+id/help_iv"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/abc_btn_switch_to_on_mtrl_00012"
+                android:padding="8dp"
+                android:src="@drawable/ic_help_white_18dp" />
+
+            <Button
+                android:id="@+id/help_btn"
+                android:layout_width="72dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/help_iv"
+                android:background="@drawable/abc_popup_background_mtrl_mult"
+                android:text="提问题"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/abc_btn_show_iv"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="32dp"
+        android:src="@drawable/abc_btn_show" />
+
+</RelativeLayout>

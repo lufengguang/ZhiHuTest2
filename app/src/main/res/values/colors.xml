@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color" >#0076d6</color>
+    <color name="white" >#FFFFFF</color>
+    <color name="black" >#000000</color>
+    <color name="gray">#808080</color>
+    <color name="divider_gray">#d7d7d7</color>
+    <color name="title_bg">#35A1FF</color>
+
+    <color name="c0">#9BCDFF</color>
+    <color name="c1">#62B0FF</color>
+    <color name="c2">#35A1FF</color>
+    <color name="c3" >#0076d6</color>
+</resources>
